@@ -1,0 +1,24 @@
+# Python 虚拟环境 —— 体积大、可随时重建，绝不进 git
+.venv/
+venv/
+
+# 编辑器 / IDE 配置
+.idea/
+.vscode/
+
+# Python 运行缓存
+__pycache__/
+*.py[cod]
+
+# 密钥文件（W5 起放 API key，权限必须 600）
+.env
+.env.*
+
+# 模型权重（体积大、可由训练脚本再生）
+*.pth
+*.pt
+*.ckpt
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
